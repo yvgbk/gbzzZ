@@ -10,7 +10,7 @@
 + 服务端无审计，不会主动限制访问任何服务
 + 服务端已正确配置受信任的、有效的 TLS 证书
 + 服务端已配置 ```sniff_override_destination``` 即使你发送被 DNS 污染的 ip 到服务端，仍可以嗅探出域名并正常使用
-+ 服务端已使用加密 DNS DOT ```tls://1.1.1.1 ```
++ 服务端已使用加密 DNS（DOT） ```tls://1.1.1.1 ```
 + 服务端已配置解锁 Netflix、Diseny+、Chatgpt 等等（使用 Cloudflare Warp）
 _______
 *服务端使用的 sing-box 1.8.5，作者手动搭建*
@@ -28,14 +28,14 @@ kr-seoul-oracle-b0566e.ip1.shop
 300Mbps
 ```
 > [!WARNING]
-> 300Mbps是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
+> 300Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 
 + 最大下行宽带：
 ```
 300Mbps
 ```
 > [!WARNING]
-> 300Mbps是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
+> 300Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 
 + 认证密码：
 ```
