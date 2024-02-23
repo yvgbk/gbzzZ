@@ -11,6 +11,7 @@
 + 服务端已正确配置受信任的、有效的 TLS 证书
 + 服务端已配置 ```sniff_override_destination``` 即使你发送被 DNS 污染的 ip 到服务端，仍可以嗅探出域名并正常使用
 + 服务端已使用加密 DNS（DOT） ```tls://1.1.1.1 ```
++ 服务端已启用 WEB 伪装
 + 服务端已配置解锁 Netflix、Diseny+、Chatgpt 等等（使用 Cloudflare Warp）（即将到来）
 _______
 *服务端使用的 sing-box 1.8.5，作者手动搭建*
