@@ -1,6 +1,5 @@
 ## 有一种鸟儿是永远也关不住的，因为它的每片羽翼都沾满了自由的光辉！
 
-服务端使用的 sing-box 1.8.5，作者手动搭建
 
 ## hysteria2 介绍
 #### Brutal 拥塞控制：在丢包时并不会降低速度，而是通过计算的丢包率来提升速度进行补偿。
@@ -13,6 +12,8 @@
 #### 服务端已配置 ```sniff_override_destination``` 即使你发送被 DNS 污染的 ip 到服务端，仍可以嗅探出域名并正常使用
 #### 服务端已使用加密 DNS DOT ```tls://1.1.1.1 ```
 #### 服务端已配置解锁 Netflix、Diseny+、Chatgpt 等等（使用 Cloudflare Warp）
+
+*服务端使用的 sing-box 1.8.5，作者手动搭建*
 
 ##### 服务器地址：kr-seoul-oracle-b0566e.ip1.shop
 ##### 服务器端口：36302
