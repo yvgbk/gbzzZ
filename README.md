@@ -27,11 +27,13 @@ kr-seoul-oracle-b0566e.ip1.shop
 ```
 300Mbps
 ```
+> [!WARNING]
 > 300Mbps是服务端设置的最大速率，你应该填写你的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 最大下行宽带：
 ```
 300Mbps
 ```
+> [!WARNING]
 > 300Mbps是服务端设置的最大速率，你应该填写你的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 认证密码：
 ```
