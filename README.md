@@ -21,7 +21,6 @@ _______
 {
   "type": "hysteria2",
   "tag": "hy2-out",
-
   "server": "kr-seoul-oracle-b0566e.ip1.shop",
   "server_port": 36302,
   "up_mbps": 300,
