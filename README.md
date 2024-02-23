@@ -11,7 +11,7 @@
 ### 服务端无审计，不会主动限制访问任何服务
 ### 服务端已正确配置受信任的、有效的 TLS 证书
 ### 服务端已配置 ```sniff_override_destination``` 即使你发送被 NDS 污染的 ip 到服务端，仍可以嗅探出域名并正常使用
-### 服务端已使用加密 DNS
+### 服务端已使用加密 DNS ```tls://1.1.1.1 ```
 ### 服务端已配置解锁 Netflix Chatgpt（使用 Cloudflare Warp）
 
 
