@@ -36,6 +36,7 @@ kr-seoul-oracle-b0566e.ip1.shop
 ```
 > [!WARNING]
 > 300Mbps是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
+
 认证密码：
 ```
 c1g6VH1a8zlgj
