@@ -35,7 +35,10 @@ _______
  }
 }
 ```
-
++ 类型：
+```
+hysteria2
+```
 + 服务器地址：
 ```
 kr-seoul-oracle-b0566e.ip1.shop
