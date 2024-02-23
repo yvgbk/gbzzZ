@@ -81,6 +81,8 @@ c1g6VH1a8zlgj
 ```
 true
 ```
+> 启用
+
 **server_name**
 + 服务器名称指示：
 ```
