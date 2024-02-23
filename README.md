@@ -37,18 +37,22 @@ _______
  }
 }
 ```
+**type**
 + 类型：
 ```
 hysteria2
 ```
+**server**
 + 服务器地址：
 ```
 kr-seoul-oracle-b0566e.ip1.shop
 ```
+**server_port**
 + 服务器端口：
 ```
 36302
 ```
+**up_mbps**
 + 最大上行宽带（Mbps）：
 ```
 300
@@ -56,6 +60,7 @@ kr-seoul-oracle-b0566e.ip1.shop
 > [!WARNING]
 > 300Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 
+**down_mbps**
 + 最大下行宽带（Mbps）：
 ```
 300
@@ -63,18 +68,22 @@ kr-seoul-oracle-b0566e.ip1.shop
 > [!WARNING]
 > 300Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 
+**password**
 + 认证密码：
 ```
 c1g6VH1a8zlgj
 ```
+**enabled**
 + TLS
 ```
 启用
 ```
+**server_name**
 + 服务器名称指示：
 ```
 p.004456.xyz
 ```
+**alpn**
 + 应用层协议协商：
 ```
 h3
