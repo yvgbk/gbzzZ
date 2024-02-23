@@ -8,7 +8,7 @@
 ### UDP：延迟更低耗时更短
 ### 0RTT：延迟更低耗时更短
 ### 服务端已正确配置受信任的、有效的 TLS 证书
-### 服务端已配置 sniff_override_destination，即使你发送到污染的 ip 到服务端，仍可以嗅探出域名正常使用
+### 服务端已配置 sniff_override_destination，即使你发送被 NDS 污染的 ip 到服务端，仍可以嗅探出域名并正常使用
 ### 服务器已使用加密 DNS
 
 
