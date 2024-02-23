@@ -79,7 +79,7 @@ c1g6VH1a8zlgj
 **enabled**
 + 启用 TLS
 ```
-启用
+true
 ```
 **server_name**
 + 服务器名称指示：
