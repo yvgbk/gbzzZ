@@ -25,9 +25,8 @@ _______
   "server": "kr-seoul-oracle-b0566e.ip1.shop",
   "server_port": 36302,
   "up_mbps": 300,
-  "down_mbps": 300
-  "password": "goofy_ahh_password",
-  "network": "tcp",
+  "down_mbps": 300,
+  "password": "c1g6VH1a8zlgj",
   "tls": {
   "enabled": true,
   "server_name": "p.004456.xyz",
