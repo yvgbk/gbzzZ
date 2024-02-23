@@ -17,6 +17,26 @@
 + 服务端已配置解锁 Netflix、Diseny+、Chatgpt 等等（使用 Cloudflare Warp）（即将到来）
 _______
 *服务端使用的 sing-box 1.8.5，作者手动搭建*
+```json
+{
+  "type": "hysteria2",
+  "tag": "hy2-out",
+
+  "server": "kr-seoul-oracle-b0566e.ip1.shop",
+  "server_port": 36302,
+  "up_mbps": 300,
+  "down_mbps": 300
+  "password": "goofy_ahh_password",
+  "network": "tcp",
+  "tls": {
+  "enabled": true,
+  "server_name": "p.004456.xyz",
+  "alpn": [
+"h3"
+  ]
+ }
+}
+```
 
 + 服务器地址：
 ```
