@@ -65,6 +65,10 @@ kr-seoul-oracle-b0566e.ip1.shop
 ```
 c1g6VH1a8zlgj
 ```
++ TLS
+```
+开启
+```
 + 服务器名称指示：
 ```
 p.004456.xyz
