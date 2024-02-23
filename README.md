@@ -10,7 +10,7 @@
 ### 服务端已正确配置受信任的、有效的 TLS 证书
 ### 服务端已配置 ```sniff_override_destination``` 即使你发送被 NDS 污染的 ip 到服务端，仍可以嗅探出域名并正常使用
 ### 服务器已使用加密 DNS
-### 服务端与配置解锁 NetFlix ChatGpt（使用 Cloudflare Warp）
+### 服务端已配置解锁 Netflix Chatgpt（使用 Cloudflare Warp）
 
 
 
