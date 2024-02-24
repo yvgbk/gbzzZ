@@ -95,7 +95,7 @@ h3
 ```
 _____
 ***如果你的网络针对性屏蔽了 QUIC 或 HTTP/3 流量（但允许其他 UDP 流量），可以尝试这个配置，这个配置将数据包混淆成没有特征的 UDP 包***
-> [!WARNING]
+> [!NOTE]
 > 默认 Hysteria 协议伪装为 HTTP/3。使用混淆将使服务器与标准的 QUIC 连接不兼容，失去 HTTP/3 伪装的能力。
 
 *客户端 json 配置：*
@@ -135,7 +135,7 @@ d5I_dUp7z_1u3g6r
 ```
 _____
 ***如果你需要解锁 Netflix、chatgpt、disney+ 等等一些服务，请使用这个配置***
-> [!WARNING]
+> [!NOTE]
 > 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，如果你不需要解锁它们，请不要使用这个配置
 
 *客户端 json 配置：*
