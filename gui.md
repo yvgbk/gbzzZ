@@ -3,7 +3,7 @@ Clash Meta
 
 sing-box
 
-### NekoBox
+### NekoBox [点我](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)下载
 ```
 sn://hysteria?eNpjZ2BgyC7SLU7NL83RzS9KTM5J1U0yMDUzS9XLLDDUK87I_2DBwsDAxAAByYbpZmEehokWVTnpr0ACjQV6BgYmJqZmehWVvxpTgCIpYGEGGOACYmMzY4NNjEDGzLcL9rzdvgFMbn85f-XT2XvjPSqLS1KLMhMVjOI9QkIC9I0bGwGr1y1T
 sn://hysteria?eNpjZ2BgyC7SLU7NL83RzS9KTM5J1U0yMDUzS9XLLDDUK87I_2DBwsDAxAAB5enJhulmYR6GiRZVOemvQEKNBXoGBiYmpmZ6FZW_GlOAIilgYQYY4AJiYzNjgy2MQMbStwv2vN2-AUxufzl_5dPZe-M9KotLUosyExWM4j1CQgL0jeOT03TLE4sKdPNLSxobAWPdMtM
