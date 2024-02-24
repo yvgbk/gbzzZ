@@ -19,7 +19,7 @@
 
 + 服务端已使用加密 DNS（DOT） ```tls://1.1.1.1 ```
 + 服务端已启用 WEB 伪装
-+ 服务端已配置解锁 Netflix、Diseny+、Chatgpt 等等（使用 Cloudflare Warp 解锁）
++ 服务端已配置解锁 Netflix、Diseny+、ChatGPT 等等（使用 Cloudflare Warp 解锁）
 _______
 *服务端使用的 sing-box 1.8.5，作者手动搭建*
 
@@ -134,7 +134,7 @@ salamander
 d5I_dUp7z_1u3g6r
 ```
 _____
-***如果你需要解锁 Netflix、chatgpt、disney+ 等等一些服务，请使用这个配置***
+***如果你需要解锁 Netflix、ChatGPT、Disney+ 等等一些服务，请使用这个配置***
 > [!NOTE]
 > 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，并且有一些服务/公司 会屏蔽 Cloudflare Warp 的 ip，如果你不需要解锁它们，请不要使用这个配置
 
