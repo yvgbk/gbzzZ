@@ -124,13 +124,13 @@ _____
 ```
 
 **obfs.type**
-> QUIC 流量混淆器类型，仅可设为 salamander。
+> QUIC 流量混淆器类型
 ```
 salamander
 ```
 
 **obfs.password**
-> QUIC 流量混淆器密码.
+> QUIC 流量混淆器密码
 ```
 d5I_dUp7z_1u3g6r
 ```
