@@ -34,7 +34,7 @@ _______
   "server_port": 443,
   "up_mbps": 500,
   "down_mbps": 500,
-  "password": "c1g6VH1a8zlgj",
+  "password": "cg6uF2z9NAGkkj",
   "tls": {
   "enabled": true,
   "server_name": "p.004456.xyz",
@@ -76,7 +76,7 @@ hysteria2
 **password**
 > 认证密码
 ```
-c1g6VH1a8zlgj
+cg6uF2z9NAGkkj
 ```
 **tls.enabled**
 > 启用 TLS
@@ -111,9 +111,9 @@ _____
   "down_mbps": 500,
   "obfs": {
     "type": "salamander",
-    "password": "d5I_dUp7z_1u3g6r"
+    "password": "duG1jb_1u4y9O6r"
   },
-  "password": "cKhwuV2Ni9Kkgj",
+  "password": "2cg6uF2z9NAGkkj",
   "tls": {
   "enabled": true,
   "server_name": "p.004456.xyz",
@@ -133,7 +133,7 @@ salamander
 **obfs.password**
 > QUIC 流量混淆器密码
 ```
-d5I_dUp7z_1u3g6r
+duG1jb_1u4y9O6r
 ```
 _____
 ***如果你需要解锁 Netflix、ChatGPT、Disney+ 等等一些服务，请使用这个配置***
@@ -149,7 +149,7 @@ _____
   "server_port": 5001,
   "up_mbps": 500,
   "down_mbps": 500,
-  "password": "wgc1g6VH1a8zlgj",
+  "password": "wgcg6uF2z9NAGkkj",
   "tls": {
   "enabled": true,
   "server_name": "p.004456.xyz",
