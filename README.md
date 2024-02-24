@@ -21,7 +21,7 @@
 _______
 *服务端使用的 sing-box 1.8.5，作者手动搭建*
 
-**客户端 JSON 配置**
+**客户端 json 配置**
 ```json
 {
   "type": "hysteria2",
@@ -97,6 +97,29 @@ h3
 
 
 如果你的网络针对性屏蔽了 QUIC 或 HTTP/3 流量（但允许其他 UDP 流量），可以尝试这个配置，这个配置将数据包混淆成没有特征的 UDP 包
+
+```json
+{
+  "type": "hysteria2",
+  "tag": "hy2-out",
+  "server": "kr-seoul-oracle-b0566e.ip1.shop",
+  "server_port": 36303,
+  "up_mbps": 300,
+  "down_mbps": 300,
+  "obfs": {
+    "type": "salamander",
+    "password": "d5I_dUp7z_1u3g6r"
+  },
+  "password": "c1g6VH1a8zlgj",
+  "tls": {
+  "enabled": true,
+  "server_name": "p.004456.xyz",
+  "alpn": [
+    "h3"
+  ]
+ }
+}
+```
 
 
 ## 自由的鸟儿会善用那锐利的鸟喙，再坚固的铁窗也锁不住它！
