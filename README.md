@@ -137,5 +137,24 @@ _____
 > [!WARNING]
 > 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，如果你不需要解锁它们，请不要使用这个配置
 
+**客户端 json 配置**
+```json
+{
+  "type": "hysteria2",
+  "tag": "hy2-out",
+  "server": "kr-seoul-oracle-b0566e.ip1.shop",
+  "server_port": 36304,
+  "up_mbps": 300,
+  "down_mbps": 300,
+  "password": "wgc1g6VH1a8zlgj",
+  "tls": {
+  "enabled": true,
+  "server_name": "p.004456.xyz",
+  "alpn": [
+    "h3"
+  ]
+ }
+}
+```
 
 ## 自由的鸟儿会善用那锐利的鸟喙，再坚固的铁窗也锁不住它！
