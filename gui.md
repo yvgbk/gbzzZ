@@ -1,10 +1,9 @@
-# 即将到来
 Clash Meta
 
 sing-box
 
 ### NekoBox [点我](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)下载
-1. 复制下面到剪切板
+1. 复制下面内容到剪切板
 2. 打开 NekoBox
 3. 点击右上角 + 号
 4. 从剪切板导入
