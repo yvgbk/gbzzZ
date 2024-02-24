@@ -110,7 +110,7 @@ h3
     "type": "salamander",
     "password": "d5I_dUp7z_1u3g6r"
   },
-  "password": "wgc1g6VH1a8zlgj",
+  "password": "cKhwuV2Ni9Kkgj",
   "tls": {
   "enabled": true,
   "server_name": "p.004456.xyz",
