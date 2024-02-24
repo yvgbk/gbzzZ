@@ -121,5 +121,17 @@ h3
 }
 ```
 
+**obfs.type**
++ QUIC 流量混淆器类型，仅可设为 salamander。
+```
+salamander
+```
+
+**obfs.password**
++ QUIC 流量混淆器密码.
+```
+d5I_dUp7z_1u3g6r
+```
+
 
 ## 自由的鸟儿会善用那锐利的鸟喙，再坚固的铁窗也锁不住它！
