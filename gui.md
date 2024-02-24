@@ -1,8 +1,8 @@
-### Clash Meta
+### Clash Meta（Android）
 
-### sing-box
+### sing-box（全平台）
 
-### NekoBox [点我](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)下载
+### NekoBox（Android） [点我](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)下载
 1. 复制下面内容到剪切板
 2. 打开 NekoBox
 3. 点击右上角 + 号
@@ -14,6 +14,6 @@ sn://hysteria?eNpjZ2BgMDQw1zM0N9KztNDbYcHCwMDEAAHl6cnpZqVuRlWWfo7u2dmvQGKNBXoGBi
 ```
 
 
-### NekoRay
+### NekoRay（Linux、Windows）
 
 ### Hysteria 2 官方版
