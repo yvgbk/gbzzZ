@@ -96,7 +96,7 @@ p.004456.xyz
 h3
 ```
 _____
-如果你的网络针对性屏蔽了 QUIC 或 HTTP/3 流量（但允许其他 UDP 流量），可以尝试这个配置，这个配置将数据包混淆成没有特征的 UDP 包
+***如果你的网络针对性屏蔽了 QUIC 或 HTTP/3 流量（但允许其他 UDP 流量），可以尝试这个配置，这个配置将数据包混淆成没有特征的 UDP 包***
 
 *客户端 json 配置：*
 ```json
@@ -134,7 +134,7 @@ salamander
 d5I_dUp7z_1u3g6r
 ```
 _____
-如果你需要解锁 Netflix、chatgpt、disney+ 等等一些服务，请使用这个配置
+***如果你需要解锁 Netflix、chatgpt、disney+ 等等一些服务，请使用这个配置***
 > [!WARNING]
 > 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，如果你不需要解锁它们，请不要使用这个配置
 
