@@ -42,22 +42,22 @@ _______
 }
 ```
 **type**
-+ 类型
+> 类型
 ```
 hysteria2
 ```
 **server**
-+ 服务器地址
+> 服务器地址
 ```
 kr-seoul-oracle-b0566e.ip1.shop
 ```
 **server_port**
-+ 服务器端口
+> 服务器端口
 ```
 36302
 ```
 **up_mbps**
-+ 最大上行宽带（Mbps）
+> 最大上行宽带（Mbps）
 ```
 300
 ```
@@ -65,7 +65,7 @@ kr-seoul-oracle-b0566e.ip1.shop
 > 300Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 
 **down_mbps**
-+ 最大下行宽带（Mbps）
+> 最大下行宽带（Mbps）
 ```
 300
 ```
@@ -73,25 +73,24 @@ kr-seoul-oracle-b0566e.ip1.shop
 > 300Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 
 **password**
-+ 认证密码
+> 认证密码
 ```
 c1g6VH1a8zlgj
 ```
 **tls.enabled**
-+ 启用 TLS
-> 启用
+> 启用 TLS
 
 ```
 true
 ```
 
 **server_name**
-+ 服务器名称指示
+> 服务器名称指示
 ```
 p.004456.xyz
 ```
 **alpn**
-+ 应用层协议协商
+> 应用层协议协商
 ```
 h3
 ```
@@ -123,13 +122,13 @@ _____
 ```
 
 **obfs.type**
-+ QUIC 流量混淆器类型，仅可设为 salamander。
+> QUIC 流量混淆器类型，仅可设为 salamander。
 ```
 salamander
 ```
 
 **obfs.password**
-+ QUIC 流量混淆器密码.
+> QUIC 流量混淆器密码.
 ```
 d5I_dUp7z_1u3g6r
 ```
