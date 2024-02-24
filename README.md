@@ -135,6 +135,8 @@ d5I_dUp7z_1u3g6r
 ```
 
 如果你需要解锁 Netflix、chatgpt、disney+ 等等一些服务，请使用这个配置
+> [!WARNING]
+> 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，如果你不需要解锁它们，请不要使用这个配置
 
 
 ## 自由的鸟儿会善用那锐利的鸟喙，再坚固的铁窗也锁不住它！
