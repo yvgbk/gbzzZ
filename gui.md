@@ -6,3 +6,5 @@ sing-box
 Nekobox
 
 NekoRay
+
+Hysteria 2
