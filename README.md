@@ -17,7 +17,7 @@
 > [!WARNING]
 > ！
 
-+ 服务端已使用加密 DNS（DOT） ```tls://1.1.1.1 ```
++ 服务端已使用加密 DNS over TLS ```tls://1.1.1.1 ```
 + 服务端已启用 WEB 伪装
 + 服务端已配置解锁 Netflix、Diseny+、ChatGPT 等等（使用 Cloudflare Warp 解锁）
 _______
