@@ -104,8 +104,8 @@ _____
 ```json
 {
   "type": "hysteria2",
-  "tag": "hy2-out",
-  "server": "kr-seoul-oracle-b0566e.ip1.shop",
+  "tag": "hy2-out2",
+  "server": "107.172.98.8",
   "server_port": 5000,
   "up_mbps": 500,
   "down_mbps": 500,
@@ -144,8 +144,8 @@ _____
 ```json
 {
   "type": "hysteria2",
-  "tag": "hy2-out",
-  "server": "kr-seoul-oracle-b0566e.ip1.shop",
+  "tag": "hy2-out3",
+  "server": "107.172.98.8",
   "server_port": 5001,
   "up_mbps": 500,
   "down_mbps": 500,
