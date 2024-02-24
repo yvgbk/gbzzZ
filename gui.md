@@ -6,7 +6,7 @@ sing-box
 ### NekoBox [点我](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)下载
 1. 复制下面到剪切板
 2. 打开 NekoBox
-3. 点击右上角➕号
+3. 点击右上角 + 号
 4. 从剪切板导入
 ```
 sn://hysteria?eNpjZ2BgyC7SLU7NL83RzS9KTM5J1U0yMDUzS9XLLDDUK87I_2DBwsDAxAAByYbpZmEehokWVTnpr0ACjQV6BgYmJqZmehWVvxpTgCIpYGEGGOACYmMzY4NNjEDGzLcL9rzdvgFMbn85f-XT2XvjPSqLS1KLMhMVjOI9QkIC9I0bGwGr1y1T
