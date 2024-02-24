@@ -76,7 +76,7 @@ kr-seoul-oracle-b0566e.ip1.shop
 ```
 c1g6VH1a8zlgj
 ```
-**enabled**
+**tls.enabled**
 + 启用 TLS
 > 启用
 
