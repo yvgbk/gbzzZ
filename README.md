@@ -62,7 +62,7 @@ kr-seoul-oracle-b0566e.ip1.shop
 300
 ```
 > [!WARNING]
-> up_mbps,down_mbps丨300Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
+> ```up_mbps,down_mbps``` 300Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 
 **down_mbps**
 > 最大下行宽带（Mbps）
