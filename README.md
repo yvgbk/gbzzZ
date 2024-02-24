@@ -19,7 +19,7 @@
 
 + 服务端已使用加密 DNS over TLS
 ```tls://1.1.1.1 ```
-+ 服务端已启用 WEB 伪装
++ 服务端已启用 Web 伪装
 + 服务端已配置解锁 Netflix、Diseny+、ChatGPT 等等（使用 Cloudflare Warp 解锁）
 _______
 *服务端使用的 sing-box 1.8.5，作者手动搭建*
