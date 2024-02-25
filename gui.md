@@ -9,11 +9,10 @@ proxies:
    up: "100 Mbps" # 若不写单位，默认为 Mbps
    down: "100 Mbps" # 若不写单位，默认为 Mbps
   password: yourpassword
-  # obfs: salamander # 默认为空，如果填写则开启obfs，目前仅支持salamander
-  # obfs-password: yourpassword
+   obfs: salamander # 默认为空，如果填写则开启obfs，目前仅支持salamander
+   obfs-password: yourpassword
    sni: server.com
    skip-cert-verify: false
-  # fingerprint: xxxx
    alpn:
      - h3
 ```
