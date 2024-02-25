@@ -62,6 +62,11 @@ sn://hysteria?eNpjZ2BgMDQw1zM0N9KztNDbYcHCwMDEAAHl6cnpZqVuRlWWfo7u2dmvQGKNBXoGBi
 ### [NekoRay](https://github.com/MatsuriDayo/nekoray)（Linux、Windows）
 [点击下载](https://github.com/MatsuriDayo/nekoray/releases/tag/3.26)
 
+> [!CAUTION]
+> 首次打开时，使用请选择 sing-box 核心。或者设置里切换核心为 sing-box
+```
+即将到来
+```
 ### [Hysteria 2](https://github.com/apernet/hysteria) 官方
 [点击下载](https://github.com/apernet/hysteria/releases/tag/app%2Fv2.2.4)
 
