@@ -33,8 +33,8 @@ _______
   "tag": "hy2-out",
   "server": "kr-seoul-oracle-b0566e.ip1.shop",
   "server_port": 47352,
-  "up_mbps": 500,
-  "down_mbps": 500,
+  "up_mbps": 100,
+  "down_mbps": 100,
   "password": "r7BgF9N0M1qkkj",
   "tls": {
   "enabled": true,
@@ -55,8 +55,8 @@ _______
   "tag": "hy2-out",
   "server": "107.172.98.8",
   "server_port": 443,
-  "up_mbps": 500,
-  "down_mbps": 500,
+  "up_mbps": 100,
+  "down_mbps": 100,
   "password": "cg6uF2z9NAGkkj",
   "tls": {
   "enabled": true,
@@ -80,7 +80,7 @@ _______
 > 最大上行宽带（Mbps）
 
 > [!WARNING]
-> ```up_mbps,down_mbps``` 500Mbps 是服务端设置的最大速率，你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
+> ```up_mbps,down_mbps``` 你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC
 
 **down_mbps**
 > 最大下行宽带（Mbps）
@@ -112,8 +112,8 @@ _____
   "tag": "hy2-out",
   "server": "kr-seoul-oracle-b0566e.ip1.shop",
   "server_port": 47353,
-  "up_mbps": 500,
-  "down_mbps": 500,
+  "up_mbps": 100,
+  "down_mbps": 100,
   "obfs": {
     "type": "salamander",
     "password": "obfsr7BgF9N0M1qkkj"
@@ -137,8 +137,8 @@ _____
   "tag": "hy2-out",
   "server": "107.172.98.8",
   "server_port": 5000,
-  "up_mbps": 500,
-  "down_mbps": 500,
+  "up_mbps": 100,
+  "down_mbps": 100,
   "obfs": {
     "type": "salamander",
     "password": "duG1jb_1u4y9O6r"
@@ -175,8 +175,8 @@ _____
   "tag": "hy2-out",
   "server": "kr-seoul-oracle-b0566e.ip1.shop",
   "server_port": 47354,
-  "up_mbps": 500,
-  "down_mbps": 500,
+  "up_mbps": 100,
+  "down_mbps": 100,
   "password": "wgr7BgF9N0M1qkkj",
   "tls": {
   "enabled": true,
@@ -197,8 +197,8 @@ _____
   "tag": "hy2-out",
   "server": "107.172.98.8",
   "server_port": 5001,
-  "up_mbps": 500,
-  "down_mbps": 500,
+  "up_mbps": 100,
+  "down_mbps": 100,
   "password": "wgcg6uF2z9NAGkkj",
   "tls": {
   "enabled": true,
