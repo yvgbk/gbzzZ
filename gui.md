@@ -25,11 +25,11 @@ proxies:
   "tag": "hy2-out",
   "server": "", // 服务器地址
   "server_port": 1234, //服务器端口
-  "up_mbps": 100,
-  "down_mbps": 100,
+  "up_mbps": 100, //最大上行速率，填写你本地网络实际速率
+  "down_mbps": 100, ////最大下行速率，填写你本地网络实际速率
   "obfs": {
     "type": "salamander",
-    "password": "" //混淆密码
+    "password": "" // QUIC 流量混淆密码
   },
   "password": "", //认证密码
   "tls": {
