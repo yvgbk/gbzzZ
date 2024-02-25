@@ -63,7 +63,7 @@ sn://hysteria?eNpjZ2BgMDQw1zM0N9KztNDbYcHCwMDEAAHl6cnpZqVuRlWWfo7u2dmvQGKNBXoGBi
 [点击下载](https://github.com/MatsuriDayo/nekoray/releases/tag/3.26)
 
 > [!CAUTION]
-> 首次打开时，使用请选择 sing-box 核心。或者设置里切换核心为 sing-box
+> 首次打开时，请选择使用 sing-box 核心。或者设置里切换核心为 sing-box
 ```
 即将到来
 ```
