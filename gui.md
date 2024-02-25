@@ -59,6 +59,10 @@ sn://hysteria?eNpjZ2BgMDQw1zM0N9KztNDbYcHCwMDEAAHl6cnpZqVuRlWWfo7u2dmvQGKNBXoGBi
 ### [NekoRay](https://github.com/MatsuriDayo/nekoray)（Linux、Windows）[点我下载](https://github.com/MatsuriDayo/nekoray/releases/tag/3.26)
 
 ### Hysteria 2 官方
+
+创建配置文件
+假设你已经将可执行文件下载到了一个目录中，名字是 hysteria-linux-amd64-avx。在同目录下创建一个 config.yaml 文件，将以下内容复制粘贴进去
+
 ```yaml
 server: your.domain.net:443 
 
