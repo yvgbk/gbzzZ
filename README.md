@@ -80,8 +80,7 @@ _______
 > 最大上行宽带（Mbps）
 
 > [!WARNING]
-> ```up_mbps,down_mbps``` 你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC。
-（如果你使用 Brutal 拥塞控制算法的速度不太理想，可以尝试切换到 BBR）
+> ```up_mbps,down_mbps``` 你应该填写你本地网络的实际速率。如果为空，将使用 BBR 拥塞控制算法而不是 Hysteria CC。（如果你使用 Brutal 拥塞控制算法的速度不太理想，可以尝试切换到 BBR）
 
 **down_mbps**
 > 最大下行宽带（Mbps）
