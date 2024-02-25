@@ -2,7 +2,7 @@
 
 ### sing-box（全平台）
 
-### NekoBox（Android） [点我](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)下载
+### NekoBox（Android） [点我下载](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)
 1. 复制下面内容到剪切板
 2. 打开 NekoBox
 3. 点击右上角 + 号
@@ -17,6 +17,6 @@ sn://hysteria?eNpjZ2BgMDQw1zM0N9KztNDbYcHCwMDEAAHl6cnpZqVuRlWWfo7u2dmvQGKNBXoGBi
 ```
 
 
-### NekoRay（Linux、Windows）
+### [NekoRay](https://github.com/MatsuriDayo/nekoray)（Linux、Windows）[点我下载](https://github.com/MatsuriDayo/nekoray/releases/tag/3.26)
 
 ### Hysteria 2 官方版
