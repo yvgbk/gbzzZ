@@ -104,6 +104,32 @@ _____
 > 默认 Hysteria 协议伪装为 HTTP/3。使用混淆将使服务器与标准的 QUIC 连接不兼容，失去 HTTP/3 伪装的能力。
 
 *客户端 json 配置：*
+
+```json
+{
+  "type": "hysteria2",
+  "tag": "hy2-out",
+  "server": "kr-seoul-oracle-b0566e.ip1.shop",
+  "server_port": 47353,
+  "up_mbps": 500,
+  "down_mbps": 500,
+  "obfs": {
+    "type": "salamander",
+    "password": "obfsr7BgF9N0M1qkkj"
+  },
+  "password": "2r7BgF9N0M1qkkj",
+  "tls": {
+  "enabled": true,
+  "server_name": "p.004456.xyz",
+  "alpn": [
+    "h3"
+  ]
+ }
+}
+```
+
+
+🇺🇸美国-圣克拉拉
 ```json
 {
   "type": "hysteria2",
@@ -144,6 +170,30 @@ _____
 > 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，并且有一些 网站/服务/公司 会屏蔽 Cloudflare Warp 的 ip，如果你不需要解锁它们，请不要使用这个配置
 
 *客户端 json 配置：*
+
+🇰🇷韩国-首尔
+```json
+{
+  "type": "hysteria2",
+  "tag": "hy2-out",
+  "server": "kr-seoul-oracle-b0566e.ip1.shop",
+  "server_port": 47354,
+  "up_mbps": 500,
+  "down_mbps": 500,
+  "password": "wgr7BgF9N0M1qkkj",
+  "tls": {
+  "enabled": true,
+  "server_name": "p.004456.xyz",
+  "alpn": [
+    "h3"
+  ]
+ }
+}
+```
+
+
+
+🇺🇸美国-圣克拉拉
 ```json
 {
   "type": "hysteria2",
