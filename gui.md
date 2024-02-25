@@ -68,6 +68,15 @@ bandwidth: # (3)!
   up: 100 mbps
   down: 100 mbps
 
+obfs:
+  type: salamander
+  salamander:
+    password: cry_me_a_r1ver
+
+tls:
+  sni: another.example.com 
+  insecure: false 
+
 socks5:
   listen: 127.0.0.1:1080 # (4)!
 
