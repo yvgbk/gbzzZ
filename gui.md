@@ -1,4 +1,4 @@
-### Clash Meta（Android）
+### Clash Meta（Android、Windows、Mac OS）
 ```yaml
 proxies:
 - name: "hysteria2"
