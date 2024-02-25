@@ -86,4 +86,4 @@ http:
 
 ____
 ### Loon、Shadowrocket、Stash、Surge
-我没有 ios 设备，欢迎[贡献](https://github.com/yvgbk/gbzzZ/issues)它们的分享链接/配置
+我没有 ios 设备，欢迎[贡献](https://github.com/yvgbk/gbzzZ/issues)它们的分享链接或配置
