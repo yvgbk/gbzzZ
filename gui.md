@@ -1,4 +1,5 @@
-### Clash Meta（Android、Windows、Mac OS）[点我下载](https://wiki.metacubex.one/startup/client/)
+### Clash Meta（Android、Windows、Mac OS）
+[点击下载](https://wiki.metacubex.one/startup/client/)
 ```yaml
 proxies:
 - name: "hysteria2"
@@ -17,7 +18,8 @@ proxies:
      - h3
 ```
 
-### [sing-box](https://github.com/SagerNet/sing-box)（全平台）[点我下载](https://github.com/SagerNet/sing-box/releases/tag/v1.8.6)
+### [sing-box](https://github.com/SagerNet/sing-box)（全平台）
+[点击下载](https://github.com/SagerNet/sing-box/releases/tag/v1.8.6)
 ```json
 {
   "type": "hysteria2",
@@ -41,7 +43,8 @@ proxies:
 }
 ```
 
-### [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)（Android） [点我下载](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)
+### [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)（Android） 
+[点击下载](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)
 1. 复制下面内容到剪切板
 2. 打开 NekoBox
 3. 点击右上角 + 号
@@ -56,9 +59,11 @@ sn://hysteria?eNpjZ2BgMDQw1zM0N9KztNDbYcHCwMDEAAHl6cnpZqVuRlWWfo7u2dmvQGKNBXoGBi
 ```
 
 
-### [NekoRay](https://github.com/MatsuriDayo/nekoray)（Linux、Windows）[点我下载](https://github.com/MatsuriDayo/nekoray/releases/tag/3.26)
+### [NekoRay](https://github.com/MatsuriDayo/nekoray)（Linux、Windows）
+[点击下载](https://github.com/MatsuriDayo/nekoray/releases/tag/3.26)
 
-### [Hysteria 2](https://github.com/apernet/hysteria) 官方[点击下载](https://github.com/apernet/hysteria/releases/tag/app%2Fv2.2.4)
+### [Hysteria 2](https://github.com/apernet/hysteria) 官方
+[点击下载](https://github.com/apernet/hysteria/releases/tag/app%2Fv2.2.4)
 
 创建配置文件
 假设你已经将可执行文件下载到了一个目录中，名字是 hysteria-linux-amd64-avx。在同目录下创建一个 config.yaml 文件，将以下内容复制粘贴进去
