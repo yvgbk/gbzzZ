@@ -162,7 +162,7 @@ _____
 > QUIC 流量混淆器密码
 
 _____
-### 如果你需要解锁 Netflix、ChatGPT、Reddit、Disney+ 等等一些服务，请使用这个配置
+### 如果你需要解锁 Netflix、ChatGPT、Reddit、Disney+ 等等一些服务，可以使用这个配置
 > [!NOTE]
 > 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，并且有一些 网站/服务/公司 会屏蔽 Cloudflare Warp 的 ip，如果你不需要解锁它们，请不要使用这个配置
 
