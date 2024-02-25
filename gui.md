@@ -86,4 +86,4 @@ http:
 
 ____
 ### Loon、Shadowrocket、Stash、Surge
-没有 ios 设备
+我没有 ios 设备
