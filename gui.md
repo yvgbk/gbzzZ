@@ -19,6 +19,28 @@ proxies:
 ```
 
 ### sing-box（全平台）
+```json
+{
+  "type": "hysteria2",
+  "tag": "hy2-out",
+  "server": "",
+  "server_port": 1234,
+  "up_mbps": 100,
+  "down_mbps": 100,
+  "obfs": {
+    "type": "salamander",
+    "password": ""
+  },
+  "password": "",
+  "tls": {
+  "enabled": true,
+  "server_name": "",
+  "alpn": [
+    "h3"
+  ]
+ }
+}
+```
 
 ### [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)（Android） [点我下载](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)
 1. 复制下面内容到剪切板
