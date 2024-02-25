@@ -155,15 +155,11 @@ _____
 
 **obfs.type**
 > QUIC 流量混淆器类型
-```
-salamander
-```
+
 
 **obfs.password**
 > QUIC 流量混淆器密码
-```
-duG1jb_1u4y9O6r
-```
+
 _____
 ***如果你需要解锁 Netflix、ChatGPT、Disney+ 等等一些服务，请使用这个配置***
 > [!NOTE]
