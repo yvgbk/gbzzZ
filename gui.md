@@ -17,7 +17,7 @@ proxies:
      - h3
 ```
 
-### sing-box（全平台）
+### [sing-box](https://github.com/SagerNet/sing-box)（全平台）[点我下载](https://github.com/SagerNet/sing-box/releases/tag/v1.8.6)
 ```json
 {
   "type": "hysteria2",
