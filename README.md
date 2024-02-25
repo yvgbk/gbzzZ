@@ -24,7 +24,7 @@
 _______
 *服务端使用的 sing-box 1.8.6，作者手动搭建*
 
-*客户端 json 配置：*
+*客户端 sing-box json 配置：*
 
 + 🇰🇷韩国-首尔
 ```json
@@ -106,7 +106,7 @@ _____
 > [!NOTE]
 > 默认 Hysteria 协议伪装为 HTTP/3。使用混淆将使服务器与标准的 QUIC 连接不兼容，失去 HTTP/3 伪装的能力。
 
-*客户端 json 配置：*
+*客户端 sing-box json 配置：*
 
 + 🇰🇷韩国-首尔
 ```json
@@ -169,7 +169,7 @@ _____
 > [!NOTE]
 > 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，并且有一些 网站/服务/公司 会屏蔽 Cloudflare Warp 的 ip，如果你不需要解锁它们，请不要使用这个配置
 
-*客户端 json 配置：*
+*客户端 sing-box json 配置：*
 
 + 🇰🇷韩国-首尔
 ```json
