@@ -1,4 +1,4 @@
-### Clash Meta（Android、Windows、Mac OS）
+### Clash Meta（Android、Windows、Mac OS）[点我下载](https://wiki.metacubex.one/startup/client/)
 ```yaml
 proxies:
 - name: "hysteria2"
