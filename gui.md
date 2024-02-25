@@ -58,14 +58,14 @@ sn://hysteria?eNpjZ2BgMDQw1zM0N9KztNDbYcHCwMDEAAHl6cnpZqVuRlWWfo7u2dmvQGKNBXoGBi
 
 ### [NekoRay](https://github.com/MatsuriDayo/nekoray)（Linux、Windows）[点我下载](https://github.com/MatsuriDayo/nekoray/releases/tag/3.26)
 
-### Hysteria 2 官方版
+### Hysteria 2 官方
 ```yaml
-server: your.domain.net:443 # (1)!
+server: your.domain.net:443 
 
-auth: Se7RAuFZ8Lzg # (2)!
+auth: Se7RAuFZ8Lzg 
 
-bandwidth: # (3)!
-  up: 100 mbps
+bandwidth: 
+  up: 100 mbps #Hysteria 内置了两套拥塞控制算法（BBR 与 Brutal），使用哪个由是否提供了带宽值决定。 如果希望使用 BBR 而不是 Brutal，可以删除整个 bandwidth 部分。
   down: 100 mbps
 
 obfs:
@@ -78,10 +78,10 @@ tls:
   insecure: false 
 
 socks5:
-  listen: 127.0.0.1:1080 # (4)!
+  listen: 127.0.0.1:1080 
 
 http:
-  listen: 127.0.0.1:8080 # (5)!
+  listen: 127.0.0.1:8080
 ```
 
 ____
