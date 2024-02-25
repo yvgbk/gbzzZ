@@ -23,18 +23,18 @@ proxies:
 {
   "type": "hysteria2",
   "tag": "hy2-out",
-  "server": "",
-  "server_port": 1234,
+  "server": "", // 服务器地址
+  "server_port": 1234, //服务器端口
   "up_mbps": 100,
   "down_mbps": 100,
   "obfs": {
     "type": "salamander",
-    "password": ""
+    "password": "" //混淆密码
   },
-  "password": "",
+  "password": "", //认证密码
   "tls": {
   "enabled": true,
-  "server_name": "",
+  "server_name": "", //服务器名称指示
   "alpn": [
     "h3"
   ]
