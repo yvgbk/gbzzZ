@@ -26,6 +26,29 @@ _______
 *服务端使用的 sing-box 1.8.6，作者手动搭建*
 
 *客户端 json 配置：*
+🇰🇷韩国-首尔
+```json
+{
+  "type": "hysteria2",
+  "tag": "hy2-out",
+  "server": "kr-seoul-oracle-b0566e.ip1.shop",
+  "server_port": 47352,
+  "up_mbps": 500,
+  "down_mbps": 500,
+  "password": "r7BgF9N0M1qkkj",
+  "tls": {
+  "enabled": true,
+  "server_name": "p.004456.xyz",
+  "alpn": [
+    "h3"
+  ]
+ }
+}
+```
+
+
+
+🇺🇸美国-圣克拉拉
 ```json
 {
   "type": "hysteria2",
