@@ -11,7 +11,6 @@
 + 对于没有适当身份验证凭据的第三方（无论是中间人还是主动探测者），Hysteria 代理服务器的行为就像标准 HTTP/3 Web 服务器一样
 ---------
 + 服务端使用 [sing-box](https://github.com/SagerNet/sing-box) 搭建
-+ 服务器位置：🇺🇸美国-圣克拉拉
 + 服务端无审计，不会限制访问任何服务
 + 服务端已正确配置受信任的、有效的 TLS 证书
 + 服务端已启用```sniff_override_destination```，即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
