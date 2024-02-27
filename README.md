@@ -213,6 +213,6 @@ _____
 }
 ```
 
-检测是否使用 Cloudflare Warp [点我检测](https://cloudflare.com/cdn-cgi/trace)
+检测是否使用 Cloudflare Warp [点击检测](https://cloudflare.com/cdn-cgi/trace)
 
 ## 自由的鸟儿会善用那锐利的鸟喙，再坚固的铁窗也锁不住它！
