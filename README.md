@@ -217,6 +217,8 @@ _____
 
 [点击检测](https://cloudflare.com/cdn-cgi/trace)
 
+你会看到以下内容：
+
 ```txt
 fl=123123123
 h=cloudflare.com
@@ -236,6 +238,7 @@ rbi=off
 kex=X25519
 ```
 
+其中
 > warp=on 使用了 Cloudflare Warp
 > 
 > warp=off 没使用 Cloudflare Warp
