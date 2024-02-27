@@ -214,7 +214,8 @@ _____
 ```
 
 检测是否使用 Cloudflare Warp [点击检测](https://cloudflare.com/cdn-cgi/trace)
-```fl=467f96
+```txt
+fl=467f96
 h=cloudflare.com
 ip=104.28.157.115
 ts=1709032025.263
@@ -226,9 +227,11 @@ http=http/3
 loc=US
 tls=TLSv1.3
 sni=plaintext
-warp=on
+warp=on （on=使用了，off=没使用）
 gateway=off
 rbi=off
-kex=X25519```
+kex=X25519
+```
+
 
 ## 自由的鸟儿会善用那锐利的鸟喙，再坚固的铁窗也锁不住它！
