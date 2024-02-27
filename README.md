@@ -1,6 +1,6 @@
 ## 有一种鸟儿是永远也关不住的，因为它的每片羽翼都沾满了自由的光辉！
 
-不知道如何使用，请[看这里](https://github.com/yvgbk/gbzzZ/blob/main/gui.md)
+客户端的使用，请[看这里](https://github.com/yvgbk/gbzzZ/blob/main/gui.md)
 
 
 ### Hysteria 2 的优势
