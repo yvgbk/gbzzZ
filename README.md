@@ -215,10 +215,10 @@ _____
 
 检测是否使用 Cloudflare Warp [点击检测](https://cloudflare.com/cdn-cgi/trace)
 ```txt
-fl=467f96
+fl=123123123
 h=cloudflare.com
 ip=104.28.157.115
-ts=1709032025.263
+ts=123123123
 visit_scheme=https
 uag=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
 colo=SJC
