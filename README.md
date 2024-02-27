@@ -227,11 +227,13 @@ http=http/3
 loc=US
 tls=TLSv1.3
 sni=plaintext
-warp=on （on=使用了，off=没使用）
+warp=on
 gateway=off
 rbi=off
 kex=X25519
 ```
 
+> warp=on 使用了 Cloudflare Warp
+> warp=off 没使用 Cloudflare Warp
 
 ## 自由的鸟儿会善用那锐利的鸟喙，再坚固的铁窗也锁不住它！
