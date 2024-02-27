@@ -34,12 +34,12 @@ proxies:
   },
   "password": "", //认证密码
   "tls": {
-  "enabled": true,
-  "server_name": "", //服务器名称指示
-  "alpn": [
-    "h3"
-  ]
- }
+    "enabled": true,
+    "server_name": "", //服务器名称指示
+    "alpn": [
+      "h3"
+    ]
+  }
 }
 ```
 
