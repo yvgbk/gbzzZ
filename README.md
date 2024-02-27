@@ -213,7 +213,7 @@ _____
 }
 ```
 
-检测是否使用 Cloudflare Warp [点击检测](https://cloudflare.com/cdn-cgi/trace)
+检测是否使用了 Cloudflare Warp [点击检测](https://cloudflare.com/cdn-cgi/trace)
 ```txt
 fl=123123123
 h=cloudflare.com
