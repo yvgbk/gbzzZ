@@ -37,12 +37,12 @@ _______
   "down_mbps": 100,
   "password": "r7BgF9N0M1qkkj",
   "tls": {
-  "enabled": true,
-  "server_name": "p.004456.xyz",
-  "alpn": [
-    "h3"
-  ]
- }
+    "enabled": true,
+    "server_name": "p.004456.xyz",
+    "alpn": [
+      "h3"
+    ]
+  }
 }
 ```
 
@@ -59,12 +59,12 @@ _______
   "down_mbps": 100,
   "password": "cg6uF2z9NAGkkj",
   "tls": {
-  "enabled": true,
-  "server_name": "p.004456.xyz",
-  "alpn": [
-    "h3"
-  ]
- }
+    "enabled": true,
+    "server_name": "p.004456.xyz",
+    "alpn": [
+      "h3"
+    ]
+  }
 }
 ```
 **type**
@@ -123,12 +123,12 @@ _____
   },
   "password": "2r7BgF9N0M1qkkj",
   "tls": {
-  "enabled": true,
-  "server_name": "p.004456.xyz",
-  "alpn": [
-    "h3"
-  ]
- }
+    "enabled": true,
+    "server_name": "p.004456.xyz",
+    "alpn": [
+      "h3"
+    ]
+  }
 }
 ```
 
@@ -148,12 +148,12 @@ _____
   },
   "password": "2cg6uF2z9NAGkkj",
   "tls": {
-  "enabled": true,
-  "server_name": "p.004456.xyz",
-  "alpn": [
-    "h3"
-  ]
- }
+    "enabled": true,
+    "server_name": "p.004456.xyz",
+    "alpn": [
+      "h3"
+    ]
+  }
 }
 ```
 
@@ -182,12 +182,12 @@ _____
   "down_mbps": 100,
   "password": "wgr7BgF9N0M1qkkj",
   "tls": {
-  "enabled": true,
-  "server_name": "p.004456.xyz",
-  "alpn": [
-    "h3"
-  ]
- }
+    "enabled": true,
+    "server_name": "p.004456.xyz",
+    "alpn": [
+      "h3"
+    ]
+  }
 }
 ```
 
@@ -204,12 +204,12 @@ _____
   "down_mbps": 100,
   "password": "wgcg6uF2z9NAGkkj",
   "tls": {
-  "enabled": true,
-  "server_name": "p.004456.xyz",
-  "alpn": [
-    "h3"
-  ]
- }
+    "enabled": true,
+    "server_name": "p.004456.xyz",
+    "alpn": [
+      "h3"
+    ]
+  }
 }
 ```
 
