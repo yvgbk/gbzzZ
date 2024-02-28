@@ -1,11 +1,11 @@
 ## 有一种鸟儿是永远也关不住的，因为它的每片羽翼都沾满了自由的光辉！
 
 #### 去做
-1. 变更/优化 服务端 Cloudflare Warp 的解锁配置
+- [ ] 变更/优化 服务端 Cloudflare Warp 的解锁配置
 + 原：无论什么全部都会走 Cloudflare Warp
 + 变更后：需要解锁的服务走 Cloudflare Warp，不需要解锁的不走
 
-2. 去广告
+- [ ] 去广告
 + 只能去掉一些基于域名的简单广告
 
 客户端的使用，请[看这里](https://github.com/yvgbk/gbzzZ/blob/main/gui.md)
