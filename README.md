@@ -1,5 +1,11 @@
 ## 有一种鸟儿是永远也关不住的，因为它的每片羽翼都沾满了自由的光辉！
 
++ 变更
+Cloudflare 代理配置
+原：无论什么都会走 Cloudflare Warp
+.
+变更后：需要解锁的服务走 Cloudflare，不需要解锁的服务不走
+
 客户端的使用，请[看这里](https://github.com/yvgbk/gbzzZ/blob/main/gui.md)
 
 
