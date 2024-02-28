@@ -13,7 +13,7 @@
 + 服务端使用 [sing-box](https://github.com/SagerNet/sing-box) 搭建
 + 服务端无审计，不会限制访问任何服务（当然，如果你故意搞事，就可能有了）
 + 服务端已正确配置受信任的、有效的 TLS 证书
-+ 服务端已允许 UDP 转发（如需转发 UDP，需要在客户端开启 UDP 转发）
++ 服务端已允许 UDP 转发（如需转发 UDP，需要在客户端也开启 UDP 转发）
 + 服务端已启用```sniff_override_destination```，即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
 > [!WARNING]
 > ！
