@@ -5,6 +5,9 @@
 + 原：无论什么全部都会走 Cloudflare Warp
 + 变更后：需要解锁的服务走 Cloudflare Warp，不需要解锁的不走
 
+2. 去广告
++ 只能去掉一些基于域名的简单广告
+
 客户端的使用，请[看这里](https://github.com/yvgbk/gbzzZ/blob/main/gui.md)
 
 
