@@ -13,16 +13,18 @@
 + 服务端使用 [sing-box](https://github.com/SagerNet/sing-box) 搭建
 + 服务端无审计，不会限制访问任何服务（当然，如果你故意搞事，就可能有了）
 + 服务端已正确配置受信任的、有效的 TLS 证书
-+ 服务端已允许 UDP 转发（如需转发 UDP，需要在客户端也开启 UDP 转发）
-> 一些通话服务需要用到 UDP，比如 Google Voice、游戏 等等
-+ 服务端已启用```sniff_override_destination```，即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
++ 服务端已允许 UDP 转发
+> 如需转发 UDP，需要在客户端也开启 UDP 转发。一些通话服务需要用到 UDP，比如 Google Voice、游戏 等等
++ 服务端已启用```sniff_override_destination```
+> 即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
 > [!WARNING]
 > ！
 
 + 服务端已使用加密 DNS over TLS
-```tls://1.1.1.1 ```
+> 使用 Cloudflare DNS ```tls://1.1.1.1```
 + 服务端已启用 Web 伪装
-+ 服务端已配置解锁 Netflix、Disney+、ChatGPT、Reddit、XDA Forums 等等（使用 Cloudflare Warp 解锁）
++ 服务端已配置解锁```Netflix、Disney+、ChatGPT、Reddit、XDA Forums```等等
+> 使用 Cloudflare Warp 解锁
 _______
 *服务端使用的 sing-box 1.8.6，作者手动搭建*
 
