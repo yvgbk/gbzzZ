@@ -11,15 +11,13 @@
 + 对于没有适当身份验证凭据的第三方（无论是中间人还是主动探测者），Hysteria 代理服务器的行为就像标准 HTTP/3 Web 服务器一样
 ---------
 + 服务端使用 [sing-box](https://github.com/SagerNet/sing-box) 搭建
-+ 服务端无审计，不会限制访问任何服务（当然，如果你故意搞事，就可能有了）
++ 服务端无审计，不会限制访问任何服务
+> 当然，如果你故意搞事，就可能有了
 + 服务端已正确配置受信任的、有效的 TLS 证书
 + 服务端已允许 UDP 转发
 > 如需转发 UDP，需要在客户端也开启 UDP 转发。一些通话服务需要用到 UDP，比如 Google Voice、游戏 等等
 + 服务端已启用```sniff_override_destination```
 > 即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
-> [!WARNING]
-> ！
-
 + 服务端已使用加密 DNS over TLS
 > 使用 Cloudflare DNS ```tls://1.1.1.1```
 + 服务端已启用 Web 伪装
