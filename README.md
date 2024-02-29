@@ -1,5 +1,7 @@
 ## 有一种鸟儿是永远也关不住的，因为它的每片羽翼都沾满了自由的光辉！
 
+## 2024-2-29 配置更新，请重新导入，否则无法使用
+
 ### 即将到来
 - [ ] 变更/优化 服务端 Cloudflare Warp 的解锁配置
 + 原：无论什么全部都会走 Cloudflare Warp
@@ -49,7 +51,7 @@ _______
   "server_port": 47352,
   "up_mbps": 100,
   "down_mbps": 100,
-  "password": "r7BgF9N0M1qkkj",
+  "password": "4Y_Q9V1fQ1j",
   "tls": {
     "enabled": true,
     "server_name": "p.004456.xyz",
@@ -133,9 +135,9 @@ _____
   "down_mbps": 100,
   "obfs": {
     "type": "salamander",
-    "password": "obfsr7BgF9N0M1qkkj"
+    "password": "obfs4Y_Q9V1fQ1j"
   },
-  "password": "2r7BgF9N0M1qkkj",
+  "password": "24Y_Q9V1fQ1j",
   "tls": {
     "enabled": true,
     "server_name": "p.004456.xyz",
@@ -191,10 +193,10 @@ _____
   "type": "hysteria2",
   "tag": "hy2-out",
   "server": "kr-seoul-oracle-b0566e.ip1.shop",
-  "server_port": 47354,
+  "server_port": 47352,
   "up_mbps": 100,
   "down_mbps": 100,
-  "password": "wgr7BgF9N0M1qkkj",
+  "password": "wg4Y_Q9V1fQ1j",
   "tls": {
     "enabled": true,
     "server_name": "p.004456.xyz",
