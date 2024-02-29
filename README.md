@@ -25,6 +25,8 @@
 + 服务端已正确配置受信任的、有效的 TLS 证书
 + 服务端已允许 UDP 转发
 > 如需转发 UDP，需要在客户端也开启 UDP 转发。一些服务需要用 UDP：Google Voice、游戏、大部分通话服务 等等
++ Google 永不送中
+> 使用 Cloudflare Warp。精准分流，将所有 Google 的域名和 ip 全部转发到 Cloudflare Warp
 + 服务端已启用```sniff_override_destination```
 > 即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
 + 服务端已使用加密 DNS over TLS
