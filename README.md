@@ -73,7 +73,7 @@ _______
   "server_port": 443,
   "up_mbps": 100,
   "down_mbps": 100,
-  "password": "cg6uF2z9NAGkkj",
+  "password": "5K_Q6V1lN1j",
   "tls": {
     "enabled": true,
     "server_name": "p.004456.xyz",
@@ -160,9 +160,9 @@ _____
   "down_mbps": 100,
   "obfs": {
     "type": "salamander",
-    "password": "duG1jb_1u4y9O6r"
+    "password": "obfs5K_Q6V1lN1j"
   },
-  "password": "2cg6uF2z9NAGkkj",
+  "password": "25K_Q6V1lN1j",
   "tls": {
     "enabled": true,
     "server_name": "p.004456.xyz",
@@ -215,10 +215,10 @@ _____
   "type": "hysteria2",
   "tag": "hy2-out",
   "server": "107.172.98.8",
-  "server_port": 5001,
+  "server_port": 443,
   "up_mbps": 100,
   "down_mbps": 100,
-  "password": "wgcg6uF2z9NAGkkj",
+  "password": "wg5K_Q6V1lN1j",
   "tls": {
     "enabled": true,
     "server_name": "p.004456.xyz",
