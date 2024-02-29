@@ -3,7 +3,7 @@
 ## 2024-2-29 配置更新，请重新导入，否则无法使用
 
 ### 即将到来
-- [ ] 变更/优化 服务端 Cloudflare Warp 的解锁配置
+- [ ] 优化服务端 Cloudflare Warp 的解锁配置
 + 原：无论什么全部都会走 Cloudflare Warp
 + 变更后：需要解锁的服务走 Cloudflare Warp，不需要解锁的不走
 
