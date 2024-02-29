@@ -45,12 +45,12 @@ proxies:
 
 ### [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)（Android） 
 [点击下载](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.2.9)
-1. 复制下面内容到剪切板
+~~1. 复制下面内容到剪切板
 2. 打开 NekoBox
 3. 点击右上角 + 号
-4. 从剪切板导入
+4. 从剪切板导入~~
 ```
-
+请按照配置手动输入添加！
 ```
 
 
@@ -61,12 +61,12 @@ proxies:
 > 首次打开时，请选择使用 sing-box 核心。或者设置里切换核心为 sing-box
 
 
-1. 复制下面内容到剪切板
+~~1. 复制下面内容到剪切板
 2. 打开 NekoRay
-3. Ctrl + V 或者鼠标右键从剪贴板添加
+3. Ctrl + V 或者鼠标右键从剪贴板添加~~
 
 ```
-
+请按照配置手动输入添加！
 ```
 ### [Hysteria 2](https://github.com/apernet/hysteria) 官方
 [点击下载](https://github.com/apernet/hysteria/releases/tag/app%2Fv2.2.4)
