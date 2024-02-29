@@ -102,4 +102,4 @@ http:
 
 ____
 ### Loon、Shadowrocket、Stash、Surge
-我没有 ios 设备，欢迎[贡献](https://github.com/yvgbk/gbzzZ/issues)它们的专用分享链接或配置
+我没有 ios 设备，欢迎[贡献](https://github.com/yvgbk/gbzzZ/issues)它们的专用分享链接或配置，或者你自己按照配置手动输入添加！
