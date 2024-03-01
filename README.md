@@ -31,9 +31,9 @@
 > 使用 Cloudflare Warp 来永不送中。精准分流，将 Google（旗下）的所有域名和 ip 转发到 Cloudflare Warp
 + 服务端已启用```sniff_override_destination```
 > 即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
-+ 服务端已使用加密 DNS over TLS
-> 使用 Cloudflare DNS ```tls://1.1.1.1```
-> （```h3://1.1.1.1/dns-query``` 即将到来）
++ ~~服务端已使用加密 DNS over TLS~~
+> ~~使用 Cloudflare DNS ```tls://1.1.1.1```
+> （```h3://1.1.1.1/dns-query``` 即将到来）~~
 + 服务端已启用 Web 伪装
 + 服务端已配置解锁```Netflix、Disney+、ChatGPT、Reddit、XDA Forums```等等
 > 使用 Cloudflare Warp 解锁
