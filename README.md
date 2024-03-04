@@ -9,6 +9,7 @@
 
 - [ ] 去广告
 + 仅能去掉一些基于域名的简单广告，不要抱有太多的幻想，很弱的
+> 使用 EasyListChina、EasyList、AdGuard DNS Filter、Peter Lowe、Dan Pollock 广告域名
 
 客户端的使用，请[看这里](https://github.com/yvgbk/gbzzZ/blob/main/gui.md)
 
