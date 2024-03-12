@@ -32,9 +32,8 @@
 > 使用 Cloudflare Warp 来永不送中。精准分流，将 Google（旗下）的所有域名和 ip 转发到 Cloudflare Warp
 + 服务端已启用```sniff_override_destination```
 > 即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
-+ ~~服务端已使用加密 DNS over TLS~~
-> ~~使用 Cloudflare DNS ```tls://1.1.1.1```
-> （```h3://1.1.1.1/dns-query``` 即将到来）~~
++ 服务端已使用加密 DNS over HTTP/3~~
+> ~~使用 Cloudflare DNS ```h3://1.1.1.1/dns-query```
 + 服务端已启用 Web 伪装
 + 服务端已配置解锁```Netflix、Disney+、ChatGPT、Reddit、XDA Forums```等等
 > 使用 Cloudflare Warp 解锁
@@ -42,27 +41,6 @@ _______
 
 
 *客户端 sing-box json 配置：*
-
-+ 🇰🇷韩国-首尔
-```json
-{
-  "type": "hysteria2",
-  "tag": "hy2-out",
-  "server": "kr-seoul-oracle-b0566e.ip1.shop",
-  "server_port": 47352,
-  "up_mbps": 100,
-  "down_mbps": 100,
-  "password": "4Y_Q9V1fQ1j",
-  "tls": {
-    "enabled": true,
-    "server_name": "p.004456.xyz",
-    "alpn": [
-      "h3"
-    ]
-  }
-}
-```
-
 
 
 + 🇺🇸美国-圣克拉拉
@@ -125,31 +103,6 @@ _____
 
 *客户端 sing-box json 配置：*
 
-+ 🇰🇷韩国-首尔
-```json
-{
-  "type": "hysteria2",
-  "tag": "hy2-out",
-  "server": "kr-seoul-oracle-b0566e.ip1.shop",
-  "server_port": 47353,
-  "up_mbps": 100,
-  "down_mbps": 100,
-  "obfs": {
-    "type": "salamander",
-    "password": "obfs4Y_Q9V1fQ1j"
-  },
-  "password": "24Y_Q9V1fQ1j",
-  "tls": {
-    "enabled": true,
-    "server_name": "p.004456.xyz",
-    "alpn": [
-      "h3"
-    ]
-  }
-}
-```
-
-
 + 🇺🇸美国-圣克拉拉
 ```json
 {
@@ -187,28 +140,6 @@ _____
 > 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，并且有一些 网站/服务/公司 会屏蔽 Cloudflare Warp 的 ip，如果你不需要解锁它们，请不要使用这个配置
 
 *客户端 sing-box json 配置：*
-
-+ 🇰🇷韩国-首尔
-```json
-{
-  "type": "hysteria2",
-  "tag": "hy2-out",
-  "server": "kr-seoul-oracle-b0566e.ip1.shop",
-  "server_port": 47352,
-  "up_mbps": 100,
-  "down_mbps": 100,
-  "password": "wg4Y_Q9V1fQ1j",
-  "tls": {
-    "enabled": true,
-    "server_name": "p.004456.xyz",
-    "alpn": [
-      "h3"
-    ]
-  }
-}
-```
-
-
 
 + 🇺🇸美国-圣克拉拉
 ```json
