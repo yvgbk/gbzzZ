@@ -11,8 +11,6 @@
 + 仅能去掉一些基于域名的简单广告，不要抱有太多的幻想，很弱的
 > 使用 EasyListChina、EasyList、AdGuard DNS Filter、Peter Lowe、Dan Pollock 广告域名
 
-客户端的使用，请[看这里](https://github.com/yvgbk/gbzzZ/blob/main/gui.md)
-
 
 ### Hysteria 2 的优势
 + Brutal 拥塞控制算法：在丢包时并不会降低速度，而是通过计算的丢包率来提升速度进行补偿
