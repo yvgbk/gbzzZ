@@ -7,14 +7,13 @@
 + 变更后：需要解锁的服务走 Cloudflare Warp，不需要解锁的不走
 
 - [ ] 去广告
-+ 仅能去掉一些基于域名的简单广告，不要抱有太多的幻想，很弱的
-> 使用 EasyListChina、EasyList、AdGuard DNS Filter、Peter Lowe、Dan Pollock 广告域名
++ 仅能去掉一些基于域名的简单广告
 
 
 ### Hysteria 2 的优势
 + Brutal 拥塞控制算法：在丢包时并不会降低速度，而是通过计算的丢包率来提升速度进行补偿
 + UDP：延迟更低 耗时更短
-+ 0RTT：延迟更低 耗时更短
++ 0-RTT：延迟更低 耗时更短
 + HTTP/3：伪装成标准的 HTTP/3 流量
 + 对于没有适当身份验证凭据的第三方（无论是中间人还是主动探测者），Hysteria 代理服务器的行为就像标准 HTTP/3 Web 服务器一样
 ---------
@@ -27,10 +26,6 @@
 > 如需转发 UDP，需要在客户端也开启 UDP 转发。一些服务需要用 UDP：Google Voice、游戏、大部分通话服务 等等
 + 服务端已配置 Google 永不送中
 > 使用 Cloudflare Warp 来永不送中。精准分流，将 Google（旗下）的所有域名和 ip 转发到 Cloudflare Warp
-+ 服务端已启用```sniff_override_destination```
-> 即使你发送被 DNS 污染的 ip 到服务端，仍可以探测出域名正常使用
-+ 服务端已使用加密 DNS over HTTP/3
-> 使用 Cloudflare DNS ```h3://1.1.1.1/dns-query```
 + 服务端已启用 Web 伪装
 + 服务端已配置解锁```Netflix、Disney+、ChatGPT、Reddit、XDA Forums```等等
 > 使用 Cloudflare Warp 解锁
@@ -53,9 +48,7 @@ _______
   "tls": {
     "enabled": true,
     "server_name": "p.004456.xyz",
-    "alpn": [
-      "h3"
-    ]
+    "alpn": "h3"
   }
 }
 ```
@@ -117,9 +110,7 @@ _____
   "tls": {
     "enabled": true,
     "server_name": "p.004456.xyz",
-    "alpn": [
-      "h3"
-    ]
+    "alpn": "h3"
   }
 }
 ```
@@ -132,60 +123,5 @@ _____
 > QUIC 流量混淆器密码
 
 _____
-### 如果你需要解锁 Netflix、ChatGPT、Reddit、Disney+、XDA Forums 等等一些服务，可以使用这个配置
-> [!NOTE]
-> 服务端使用 Cloudflare Warp 来解锁，使用 Cloudflare Warp 会减速，并且有一些 网站/服务/公司 会屏蔽 Cloudflare Warp 的 ip，如果你不需要解锁它们，请不要使用这个配置
-
-*客户端 sing-box json 配置：*
-
-+ 🇺🇸美国-圣克拉拉
-```json
-{
-  "type": "hysteria2",
-  "tag": "hy2-out",
-  "server": "107.172.98.8",
-  "server_port": 443,
-  "up_mbps": 100,
-  "down_mbps": 100,
-  "password": "wg5K_Q6V1lN1j",
-  "tls": {
-    "enabled": true,
-    "server_name": "p.004456.xyz",
-    "alpn": [
-      "h3"
-    ]
-  }
-}
-```
-
-#### 检测是否使用了 Cloudflare Warp
-
-[点击检测](https://cloudflare.com/cdn-cgi/trace)
-
-你会看到以下内容：
-```txt
-fl=123123123
-h=cloudflare.com
-ip=104.28.157.115
-ts=123123123
-visit_scheme=https
-uag=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
-colo=SJC
-sliver=none
-http=http/3
-loc=US
-tls=TLSv1.3
-sni=plaintext
-warp=on
-gateway=off
-rbi=off
-kex=X25519
-```
-
-其中
-
-```warp=on``` 使用了 Cloudflare Warp
-
-```warp=off``` 没使用 Cloudflare Warp
-___
+### 如果你需要解锁 Netflix、ChatGPT、Reddit、
 ## 自由的鸟儿会善用那锐利的鸟喙，再坚固的铁窗也锁不住它！
