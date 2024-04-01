@@ -25,7 +25,7 @@
 _______
 
 
-*客户端 sing-box json 配置：*
+*客户端 sing-box json 配置（仅出站）：*
 
 
 + 🇺🇸美国-圣克拉拉
@@ -84,7 +84,7 @@ _____
 > [!NOTE]
 > 默认 Hysteria 协议伪装为 HTTP/3。使用混淆将使服务器与标准的 QUIC 连接不兼容，失去 HTTP/3 伪装的能力。
 
-*客户端 sing-box json 配置：*
+*客户端 sing-box json 配置（仅出站）：*
 
 + 🇺🇸美国-圣克拉拉
 ```json
