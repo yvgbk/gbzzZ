@@ -6,9 +6,6 @@
 + 原：无论什么全部都会走 Cloudflare Warp
 + 变更后：需要解锁的服务走 Cloudflare Warp，不需要解锁的不走
 
-- [ ] 去广告
-+ 仅能去掉一些基于域名的简单广告
-
 
 ### Hysteria 2 的优势
 + Brutal 拥塞控制算法：在丢包时并不会降低速度，而是通过计算的丢包率来提升速度进行补偿
@@ -27,6 +24,8 @@
 + 服务端已配置 Google 永不送中
 > 使用 Cloudflare Warp 来永不送中。精准分流，将 Google（旗下）的所有域名和 ip 转发到 Cloudflare Warp
 + 服务端已启用 Web 伪装
++ 服务端已配置去广告
+> 仅能去掉一些基于域名的简单广告。使用 EasyListChina、EasyList、AdGuard DNS Filter、Peter Lowe、Dan Pollock 广告域名
 + 服务端已配置解锁```Netflix、Disney+、ChatGPT、Reddit、XDA Forums```等等
 > 使用 Cloudflare Warp 解锁
 _______
