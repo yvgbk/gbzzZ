@@ -33,7 +33,7 @@ _______
 {
   "type": "hysteria2",
   "tag": "hy2-out",
-  "server": "107.172.98.8",
+  "server": "c s",
   "server_port": 443,
   "up_mbps": 100,
   "down_mbps": 100,
@@ -91,7 +91,7 @@ _____
 {
   "type": "hysteria2",
   "tag": "hy2-out",
-  "server": "107.172.98.8",
+  "server": "c s",
   "server_port": 5000,
   "up_mbps": 100,
   "down_mbps": 100,
