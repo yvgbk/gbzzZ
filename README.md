@@ -18,6 +18,7 @@
 + 服务端已配置 Google 永不送中
 > 使用 Cloudflare Warp 来永不送中。精准分流，将 Google（旗下）的所有域名和 ip 转发到 Cloudflare Warp
 + 服务端已启用 Web 伪装
++ NAT 类型为 Full cone
 + 服务端已使用加密 DNS over HTTP/3
 > 使用 Cloudflare DNS ```h3://1.1.1.1/dns-query```
 + 服务端已配置解锁```Netflix、Disney+、ChatGPT、Reddit、XDA Forums```等等
